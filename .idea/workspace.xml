@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c473881-ba36-4f6b-b26f-d81b2291a127" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/MobileBrowser_tc_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/MobileBrowser_tc_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_05.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ecommerce_tc_02.validateErrorMessage">
+  <component name="RunManager" selected="JUnit.MobileBrowser_tc_02.opensMercadoLibreAndSearch">
     <configuration name="Ecommerce_tc_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileTask" />
       <extension name="coverage">
@@ -68,22 +69,6 @@
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Ecommerce_tc_01" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ecommerce_tc_01.goToProductsPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MobileTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Ecommerce_tc_01" />
-      <option name="METHOD_NAME" value="goToProductsPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ecommerce_tc_05.openBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MobileBrowser_tc_01.openBrowserAndVerifyOurWorkPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileTask" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Ecommerce_tc_05" />
-      <option name="METHOD_NAME" value="openBrowser" />
+      <option name="MAIN_CLASS_NAME" value="Tests.MobileBrowser_tc_01" />
+      <option name="METHOD_NAME" value="openBrowserAndVerifyOurWorkPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ecommerce_tc_05.openBrowserAndVerifyOurWorkPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MobileBrowser_tc_02.openBrowserAndVerifyOurWorkPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileTask" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +114,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Ecommerce_tc_05" />
+      <option name="MAIN_CLASS_NAME" value="Tests.MobileBrowser_tc_02" />
       <option name="METHOD_NAME" value="openBrowserAndVerifyOurWorkPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileBrowser_tc_02.opensMercadoLibreAndSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MobileTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.MobileBrowser_tc_02" />
+      <option name="METHOD_NAME" value="opensMercadoLibreAndSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MobileBrowser_tc_02.opensMercadoLibreAndSearch" />
+        <item itemvalue="JUnit.MobileBrowser_tc_02.openBrowserAndVerifyOurWorkPage" />
         <item itemvalue="JUnit.Ecommerce_tc_02.validateErrorMessage" />
-        <item itemvalue="JUnit.Ecommerce_tc_05.openBrowserAndVerifyOurWorkPage" />
+        <item itemvalue="JUnit.MobileBrowser_tc_01.openBrowserAndVerifyOurWorkPage" />
         <item itemvalue="JUnit.Ecommerce_tc_01" />
-        <item itemvalue="JUnit.Ecommerce_tc_01.goToProductsPage" />
-        <item itemvalue="JUnit.Ecommerce_tc_05.openBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,11 @@
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state x="509" y="-862" key="#Ecommerce_tc_01/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597880932469" />
-    <state width="1878" height="306" key="GridCell.Tab.0.bottom" timestamp="1598289151658">
+    <state x="543" y="-904" key="CommitChangelistDialog2" timestamp="1598303828397">
+      <screen x="-143" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="543" y="-904" key="CommitChangelistDialog2/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598303828397" />
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom" timestamp="1598302262593">
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071553" />
@@ -172,13 +177,13 @@
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814598" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409152" />
     <state width="1878" height="306" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.956@-143.-1057.1920.1057" timestamp="1598286706746" />
-    <state width="1878" height="306" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598289151658" />
-    <state width="1878" height="300" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537350" />
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598302262593" />
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1598297152664" />
     <state width="1520" height="248" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780791" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1598227176760" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1598241700325" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1598242713589" />
-    <state width="1878" height="306" key="GridCell.Tab.0.center" timestamp="1598289151657">
+    <state width="1878" height="306" key="GridCell.Tab.0.center" timestamp="1598302262590">
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071549" />
@@ -186,13 +191,13 @@
     <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814597" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409151" />
     <state width="1878" height="306" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.956@-143.-1057.1920.1057" timestamp="1598286706744" />
-    <state width="1878" height="306" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598289151657" />
-    <state width="1878" height="300" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537348" />
+    <state width="1878" height="306" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598302262590" />
+    <state width="1878" height="306" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1598297152663" />
     <state width="1520" height="248" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780789" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1598227176759" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1598241700324" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1598242713589" />
-    <state width="1878" height="306" key="GridCell.Tab.0.left" timestamp="1598289151657">
+    <state width="1878" height="306" key="GridCell.Tab.0.left" timestamp="1598302262589">
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071536" />
@@ -200,13 +205,13 @@
     <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814597" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409150" />
     <state width="1878" height="306" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.956@-143.-1057.1920.1057" timestamp="1598286706744" />
-    <state width="1878" height="306" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598289151657" />
-    <state width="1878" height="300" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537347" />
+    <state width="1878" height="306" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598302262589" />
+    <state width="1878" height="306" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1598297152662" />
     <state width="1520" height="248" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780788" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1598227176758" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1598241700324" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1598242713589" />
-    <state width="1878" height="306" key="GridCell.Tab.0.right" timestamp="1598289151658">
+    <state width="1878" height="306" key="GridCell.Tab.0.right" timestamp="1598302262591">
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071551" />
@@ -214,8 +219,8 @@
     <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814598" />
     <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409152" />
     <state width="1878" height="306" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.956@-143.-1057.1920.1057" timestamp="1598286706745" />
-    <state width="1878" height="306" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598289151658" />
-    <state width="1878" height="300" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537349" />
+    <state width="1878" height="306" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.958@-143.-1057.1920.1057" timestamp="1598302262591" />
+    <state width="1878" height="306" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1598297152663" />
     <state width="1520" height="248" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780790" />
     <state width="1638" height="390" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1598227176759" />
     <state width="1638" height="390" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1598241700325" />

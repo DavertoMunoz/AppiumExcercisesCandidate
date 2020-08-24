@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 OPEN BROWSER AND NAVIGATE, CHROMEDRIVER VERSION FOR CHROME 74
  ***/
 
-public class Ecommerce_tc_05 extends Base {
+public class MobileBrowser_tc_01 extends Base {
 
 //    @FindBy(how = How.LINK_TEXT, using = "Our Work")
 //    private MobileElement ourWorkLink;

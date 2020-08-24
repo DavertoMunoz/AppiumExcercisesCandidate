@@ -22,8 +22,8 @@ public class Base {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554"); // Open Emulator or real device emulator-5554 // Use adb devices on terminal to check connected devices
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2"); // For Android
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 14);
-        capabilities.setCapability(MobileCapabilityType.APP,app2.getAbsolutePath()); // UNCOMMENT THIS FOR NATIVE APP TEST CASES
-        // capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome"); // UNCOMMENT THIS FOR BROWSER NAVIGATION - Ecommerce_tc_05
+        //capabilities.setCapability(MobileCapabilityType.APP,app2.getAbsolutePath()); // UNCOMMENT THIS FOR NATIVE APP TEST CASES
+        capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome"); // UNCOMMENT THIS FOR BROWSER NAVIGATION - Ecommerce_tc_05
         AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities); // Args, connection to server link and cap.abilities
 
         return driver;
