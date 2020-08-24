@@ -27,30 +27,36 @@ public class Ecommerce_tc_04 extends Base {
         AndroidDriver<AndroidElement> driver = Capabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        driver.findElementById("com.androidsample.generalstore:id/nameField").sendKeys("David Muñoz"); // Name field
-        driver.findElementById("com.androidsample.generalstore:id/spinnerCountry").click(); // click on country list to show
+        // Name field
+        driver.findElementById("com.androidsample.generalstore:id/nameField").sendKeys("David Muñoz");
+        // click on country list to show
+        driver.findElementById("com.androidsample.generalstore:id/spinnerCountry").click();
+        // Scrolls the list of countries and selects the value of 'text' in this case Argentina
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(" + "new UiSelector().text(\"Argentina\"));").click();
-        driver.findElementById("com.androidsample.generalstore:id/btnLetsShop").click(); // click en botón final
+        // click on let's shop button
+        driver.findElementById("com.androidsample.generalstore:id/btnLetsShop").click();
 
+        // Driver waits until the specified locator appears on the screen
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.androidsample.generalstore:id/productName")));
 
-        // Gets the text of the item 01
+        // Gets the text of the item 01 - Check Text Matches to change the element
         String item01 = driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.androidsample.generalstore:id/rvProductList\")).scrollIntoView(" + "new UiSelector().textMatches(\"Jordan 6 Rings\"))").getText();
-        // Scroll the app until reach the item name
+        // Scroll the app until reach the item01 name
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.androidsample.generalstore:id/rvProductList\")).scrollIntoView(" + "new UiSelector().textMatches(\"Jordan 6 Rings\"))");
-        // Click on the first element of the page, even repeated.
+        // Clicks "Add to Cart" locator
         driver.findElementByXPath("//android.widget.TextView[@text='ADD TO CART']").click();
 
-        // Gets the text of the item 02
+        // Gets the text of the item 02 - Check Text Matches to change the element
         String item02 = driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.androidsample.generalstore:id/rvProductList\")).scrollIntoView(" + "new UiSelector().textMatches(\"Jordan Lift Off\"))").getText();
-        // Scroll the app until reach the item name
+        // Scroll the app until reach the item02 name
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().resourceId(\"com.androidsample.generalstore:id/rvProductList\")).scrollIntoView(" + "new UiSelector().textMatches(\"Jordan Lift Off\"))");
-        // Click on the first element of the page, even repeated
+        // Clicks "Add to Cart" locator of the item02
         driver.findElementByXPath("//android.widget.TextView[@text='ADD TO CART']").click();
-        // Click on the cart icon to reach the final page
+        // Click on the cart icon to reach the final page (Checkout)
         driver.findElement(By.id("com.androidsample.generalstore:id/appbar_btn_cart")).click();
 
+        // Assert items in checkout page
         Assert.assertEquals(item01, "Jordan 6 Rings");
         Assert.assertEquals(item02, "Jordan Lift Off");
         System.out.println("The following items were added to the cart: " + item01 + " and " + item02 + ",that's two pairs of Jordan's!");
