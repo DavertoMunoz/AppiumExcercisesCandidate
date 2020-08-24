@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c473881-ba36-4f6b-b26f-d81b2291a127" name="Default Changelist" comment="" />
+    <list default="true" id="1c473881-ba36-4f6b-b26f-d81b2291a127" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Ecommerce_tc_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/Ecommerce_tc_05.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,12 +37,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1gKiXMTECRObRzWV873HnL2GqYG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.47816092" />
@@ -41,7 +55,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ecommerce_tc_03.AssertAndRetrieveFourLocators">
+  <component name="RunManager" selected="JUnit.Ecommerce_tc_05.openBrowser">
     <configuration name="Ecommerce_tc_03.AssertAndRetrieveFiveLocators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileTask" />
       <extension name="coverage">
@@ -74,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ecommerce_tc_03.retrieveFiveLocators" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ecommerce_tc_04.assertItemsInCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MobileTask" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +97,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Ecommerce_tc_03" />
-      <option name="METHOD_NAME" value="retrieveFiveLocators" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Ecommerce_tc_04" />
+      <option name="METHOD_NAME" value="assertItemsInCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ecommerce_tc_03.AssertAndRetrieveFourLocators" />
         <item itemvalue="JUnit.Ecommerce_tc_05.openBrowser" />
+        <item itemvalue="JUnit.Ecommerce_tc_04.assertItemsInCart" />
+        <item itemvalue="JUnit.Ecommerce_tc_03.AssertAndRetrieveFourLocators" />
         <item itemvalue="JUnit.Ecommerce_tc_03.AssertAndRetrieveFiveLocators" />
         <item itemvalue="JUnit.Ecommerce_tc_05" />
-        <item itemvalue="JUnit.Ecommerce_tc_03.retrieveFiveLocators" />
       </list>
     </recent_temporary>
   </component>
@@ -149,49 +163,57 @@
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state x="509" y="-862" key="#Ecommerce_tc_01/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597880932469" />
-    <state width="1638" height="390" key="GridCell.Tab.0.bottom" timestamp="1598049519628">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="390" key="GridCell.Tab.0.bottom" timestamp="1598241700325">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071553" />
-    <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598049519628" />
-    <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598041451343" />
+    <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598057376659" />
+    <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814598" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409152" />
     <state width="1878" height="300" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537350" />
     <state width="1520" height="248" key="GridCell.Tab.0.bottom/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780791" />
-    <state width="1638" height="390" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1597986543841" />
-    <state width="1638" height="390" key="GridCell.Tab.0.center" timestamp="1598049519627">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="390" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1598227176760" />
+    <state width="1638" height="390" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1598241700325" />
+    <state width="1638" height="390" key="GridCell.Tab.0.center" timestamp="1598241700324">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071549" />
-    <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598049519627" />
-    <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598041451342" />
+    <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598057376659" />
+    <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814597" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409151" />
     <state width="1878" height="300" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537348" />
     <state width="1520" height="248" key="GridCell.Tab.0.center/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780789" />
-    <state width="1638" height="390" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1597986543840" />
-    <state width="1638" height="390" key="GridCell.Tab.0.left" timestamp="1598049519627">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="390" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1598227176759" />
+    <state width="1638" height="390" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1598241700324" />
+    <state width="1638" height="390" key="GridCell.Tab.0.left" timestamp="1598241700324">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071536" />
-    <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598049519627" />
-    <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598041451342" />
+    <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598057376658" />
+    <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814597" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409150" />
     <state width="1878" height="300" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537347" />
     <state width="1520" height="248" key="GridCell.Tab.0.left/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780788" />
-    <state width="1638" height="390" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1597986543840" />
-    <state width="1638" height="390" key="GridCell.Tab.0.right" timestamp="1598049519628">
-      <screen x="0" y="23" width="1680" height="947" />
+    <state width="1638" height="390" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1598227176758" />
+    <state width="1638" height="390" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1598241700324" />
+    <state width="1638" height="390" key="GridCell.Tab.0.right" timestamp="1598241700325">
+      <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state width="1878" height="300" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.946@-143.-1057.1920.1057" timestamp="1597965071551" />
-    <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598049519628" />
-    <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598041451343" />
+    <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1598057376659" />
+    <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598059814598" />
     <state width="1638" height="390" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1598041409152" />
     <state width="1878" height="300" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597881537349" />
     <state width="1520" height="248" key="GridCell.Tab.0.right/-143.-1057.1920.1057/0.23.1680.961@-143.-1057.1920.1057" timestamp="1597877780790" />
-    <state width="1638" height="390" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1597986543841" />
+    <state width="1638" height="390" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1598227176759" />
+    <state width="1638" height="390" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1598241700325" />
     <state x="314" y="-900" key="SettingsEditor" timestamp="1597880863780">
       <screen x="-143" y="-1057" width="1920" height="1057" />
     </state>
     <state x="314" y="-900" key="SettingsEditor/-143.-1057.1920.1057/0.23.1680.960@-143.-1057.1920.1057" timestamp="1597880863780" />
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1598058661344">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup/-143.-1057.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1598058661344" />
   </component>
 </project>

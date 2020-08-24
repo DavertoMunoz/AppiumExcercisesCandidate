@@ -22,8 +22,8 @@ public class Base {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554"); // Open Emulator or real device emulator-5554 // moto device"=: ZY22438ZDV
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2"); //
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 14);
-        capabilities.setCapability(MobileCapabilityType.APP,app2.getAbsolutePath()); // SELECT, GET AND INSTALL .APK
-        // capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+        // capabilities.setCapability(MobileCapabilityType.APP,app2.getAbsolutePath()); // SELECT, GET AND INSTALL .APK
+        capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
         AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities); // Args, connection to server link and cap.abilities
 
         return driver;

@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
             driver.findElementById("com.androidsample.generalstore:id/btnLetsShop").click(); // click en botón final
 
             WebDriverWait wait = new WebDriverWait (driver, 5); // THE FUCKING WAIT HELPED!!!!!!
-            wait.until (ExpectedConditions.visibilityOfElementLocated (By.id ("com.androidsample.generalstore:id/productName")));
+            wait.until (ExpectedConditions.visibilityOfElementLocated(By.id ("com.androidsample.generalstore:id/productName")));
 
             String productsHeader = driver.findElement(By.id("toolbar_title")).getText();
             Assert.assertEquals("Products", productsHeader);
