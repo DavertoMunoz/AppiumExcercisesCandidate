@@ -16,13 +16,12 @@ import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 /***
+ Abrir la página de Encora y entrar a la sección "Our Work", verificar la pagina.
 OPEN BROWSER AND NAVIGATE, CHROMEDRIVER VERSION FOR CHROME 74
  ***/
 
 public class MobileBrowser_tc_01 extends Base {
 
-//    @FindBy(how = How.LINK_TEXT, using = "Our Work")
-//    private MobileElement ourWorkLink;
 
     @Test
     public void openBrowserAndVerifyOurWorkPage() throws MalformedURLException {

@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 public class Ecommerce_tc_03 extends Base {
 
     @Test
-    public void AssertAndRetrieveFourLocators() throws MalformedURLException {
+    public void RetrieveAndAssertFourLocators() throws MalformedURLException {
         AndroidDriver<AndroidElement> driver = Capabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
