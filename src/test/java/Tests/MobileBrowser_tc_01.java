@@ -18,15 +18,15 @@ import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 /***
- Abrir la página de Encora y entrar a la sección "Our Work", verificar la pagina.
-OPEN BROWSER AND NAVIGATE, CHROMEDRIVER VERSION FOR CHROME 74
+ Abrir la página de Encora y entrar a la sección "Contact Us", Llenar la forma menos el email, assert error message
+OPEN BROWSER AND NAVIGATE, CHECK CHROMEDRIVER VERSION FOR MOBILE BROWSER
  ***/
 
 public class MobileBrowser_tc_01 extends Base {
 
 
     @Test
-    public void openBrowserAndVerifyOurWorkPage() throws MalformedURLException {
+    public void openPageFillContactForm() throws MalformedURLException {
         AndroidDriver<AndroidElement> driver = Capabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         // Opens device browser and page specified
@@ -41,15 +41,18 @@ public class MobileBrowser_tc_01 extends Base {
         driver.findElementByCssSelector(".button-white");
         driver.findElementByName("firstname").sendKeys("John");
         driver.findElementByName("lastname").sendKeys("Glanton");
-        driver.findElementByName("email").sendKeys("david.munoz@yopmail.com");
+        // driver.findElementByName("email").sendKeys("david.munoz@yopmail.com");
         driver.findElementByName("country_selector").click();
         WebElement country = driver.findElement(By.xpath("//option[.='Mexico']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", country);
         driver.findElementByXPath("//option[.='Mexico']").click();
         // driver.navigate().back();
         driver.findElementByName("message").sendKeys("This is an awesome company!");
-        driver.hideKeyboard();
-        driver.close();
+        driver.findElementByCssSelector(".hs-button").click();
+        String errorMessage = driver.findElementByXPath("//div[@class='hs_email hs-email hs-fieldtype-text field hs-form-field']//label[@class='hs-error-msg']").getText();
+        Assert.assertEquals(errorMessage, "Please complete this required field.");driver.close();
+
+
 
         //driver.findElementByXPath("//option[.='Bermuda']").click();
 
