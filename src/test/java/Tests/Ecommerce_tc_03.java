@@ -1,11 +1,14 @@
 package Tests;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.touch.offset.PointOption;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -13,35 +16,40 @@ import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 /***
- RETRIEVE FIVE LOCATORS AND PRINT THEM IN THE CONSOLE - PASS
+ COMPARE AND ASSERT ITEMS IN SHOPPING CART
  ***/
 
 
 public class Ecommerce_tc_03 extends Base {
-
     @Test
-    public void RetrieveAndAssertFourLocators() throws MalformedURLException {
+    public void assertItemsInCart() throws MalformedURLException {
+
         AndroidDriver<AndroidElement> driver = Capabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        // Gets Header Text 'General Store'
-        String header = driver.findElementById("com.androidsample.generalstore:id/toolbar_title").getText();
-        String selectCountryMessage = driver.findElementByXPath("//android.widget.TextView[@text='Select the country where you want to shop']").getText();
-        // Gets the male radio button selector
-        String maleRadioButton = driver.findElementById("com.androidsample.generalstore:id/radioMale").getText();
-        // Get text of let's shop button
-        String shopPinkButton = driver.findElementByClassName("android.widget.Button").getText();
-        // store button variable
-        MobileElement shopButton = driver.findElementByClassName("android.widget.Button");
-        boolean isEnabled = shopButton.isEnabled();
+        // Name field
+        // click on country list to show
+        // Scrolls the list of countries and selects the value of 'text' in this case Argentina
+        // click on let's shop button
 
-        System.out.println(header +  " is the name of the application, " + "the radio button locator for male gender was found, " +
-                " the Shop Button is enabled and marked as " + isEnabled + " and " + '"' + selectCountryMessage + '"');
-        System.out.println("1. Locator of " + header + " was found");
-        System.out.println("2. Locator of " + selectCountryMessage + " was found");
-        System.out.println("3. Locator of " + maleRadioButton + " was found");
-        System.out.println("4. Locator of " + shopPinkButton +  " button was found");
 
+        // Gets the text of the item 01 - Check Text Matches to change the element
+        // Scroll the app until reach the item01 name
+        // Clicks "Add to Cart" locator
+
+        // Gets the text of the item 02 - Check Text Matches to change the element
+        // Scroll the app until reach the item02 name
+        // Clicks "Add to Cart" locator of the item02
+        // Click on the cart icon to reach the final page (Checkout)
+
+        // Assert items in checkout page
 
     }
 }
+
+
+
+
+
+
+

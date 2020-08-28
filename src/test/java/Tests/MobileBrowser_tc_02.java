@@ -24,42 +24,26 @@ import java.util.concurrent.TimeUnit;
 import static org.testng.AssertJUnit.assertTrue;
 
 /***
- Abrir Browser, ir a mercado Libre, realizar una b[usqueda y verificar el resultado
+ Abrir Browser, ir a mercado Libre, realizar una búsqueda y verificar el resultado
  OPEN BROWSER AND NAVIGATE, CHROMEDRIVER VERSION FOR CHROME 74
  ***/
 
 public class MobileBrowser_tc_02 extends Base {
 
-//    @FindBy(how = How.LINK_TEXT, using = "Our Work")
-//    private MobileElement ourWorkLink;
 
     @Test
     public void openMercadoLibreAndSearch() throws MalformedURLException {
         AndroidDriver<AndroidElement> driver = Capabilities();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         // Opens device browser and specified page
-        driver.get("http://mercadolibre.com/");
         // Select Mexico as the country of preference
-        driver.findElementById("MX").click();
         // Click on Zip code to add the ours
-        driver.findElementByCssSelector(".nav-header-cp-anchor").click();
         // Send  xip code to locator input field
-        driver.findElementByName("zipcode").sendKeys("83200");
         // Confirm the zip code typed
-        driver.findElementByXPath("//span[contains(text(),'Usar')]").click();
         // Make a search
-        driver.findElementByClassName("nav-search-input").sendKeys("Tenis Puma");
         // Hit enter after sending keys
-        driver.findElementByClassName("nav-search-input").sendKeys(Keys.RETURN);
         // Retrieve text from the locator
-        String searchPuma = driver.findElementByXPath("//h2[contains(text(),'Tenis Puma Hombre Negro Trainer Evo 36402801')]").getText();
         // Assert our search with the result
-        assertTrue(searchPuma.contains("Puma"));
-
-
-        // Scroll to element "Mi cuenta"
-//        WebElement element = driver.findElement(By.xpath("//a[.='Mi cuenta']"));
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 
 
     }
